@@ -50,6 +50,7 @@ public class StatefulPersistenceEntityTests {
                 .create(WebArchive.class)
                 .addClasses(Inventory.class,
                             Product.class,
+                            _Product.class,
                             Products.class);
     }
 
